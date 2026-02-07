@@ -213,19 +213,3 @@ Project: Telecom Customer Churn Analysis
 
 ---
 
-### ✅ What this README does for you
-
-* Makes your project **self-explanatory**
-* Saves interviewers time
-* Shows **business thinking**, not just Power BI skills
-* Integrates cleanly with your **churn prediction ML project**
-
----
-
-### Next logical steps (you choose)
-
-1️⃣ Rewrite **resume project section**
-2️⃣ Integrate this with **Churn Prediction ML project**
-3️⃣ Prepare **interview explanations** using this dashboard
-
-Say **“Next: Resume”** or **“Next: Integration with ML”** and we’ll move forward.
