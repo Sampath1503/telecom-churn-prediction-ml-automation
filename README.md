@@ -262,3 +262,8 @@ Comprehensive slide deck covering data analysis, predictive modeling, automation
 
 ---
 
+📬 Author
+
+Sampath Kumar Panthagani
+Aspiring Data Scientist
+Focused on production-ready ML systems and business analytics
