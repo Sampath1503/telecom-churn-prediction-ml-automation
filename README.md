@@ -1,4 +1,4 @@
-
+Production-style ML pipeline with automated batch scoring and BI integration.
 ---
 
 # 📊 Telecom Customer Churn Analytics & Prediction System
