@@ -94,6 +94,14 @@ Automation: Windows Task Scheduler + structured logging.
 </p>
 
 ---
+### 🔹 Automation & Monitoring
+
+Output tracking and churn scoring logs.
+
+Power BI dashboards are included for executive visualization.
+
+---
+
 
 ## 📂 Dataset Overview
 
@@ -176,16 +184,23 @@ Transforms ML output into operational strategy.
 
 ## ⏱️ Automation Layer
 
-Batch pipeline:
+### Automation Components
 
-* Load trained model
-* Ingest latest snapshot
-* Generate probabilities
-* Apply segmentation logic
-* Export business-ready CSV
-* Log execution status
+`automation/data_ingestion.py`
+Handles structured data loading and validation.
 
-Scheduled daily via Windows Task Scheduler.
+`automation/predict_churn_daily.py`
+Runs scheduled churn scoring using the trained model.
+
+`automation/logs/`
+Captures execution logs including:
+
+* Prediction run status
+* Record counts
+* Errors and exceptions
+* Execution timestamps
+
+This simulates a real-world batch scoring system used in production environments.
 
 ---
 
